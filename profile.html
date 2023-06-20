@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BEEin/Profile</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/bd99fe57ad.js" crossorigin="anonymous"></script>
+</head> 
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="home.php"><img src="images/bees.png" class="logo"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="nav-right">
+
+            <ul>
+                <li><img src="images/bell.png"></li>
+                <li><img src="images/mess.png"></li>
+                <a href="#"><img src=<?php echo $image_path; ?> ></a>
+                <!-- <li><img src="images/video.png" ></li> -->
+            </ul>
+            <form action="" id="form-logut" method="post">
+                <button class="logout" name="logout">
+                    <img src="images/logoutt.png">
+                    <h5>Logout</h5>
+                </button>
+            </form>
+        </div>
+    </nav>
+    <div class="cover">
+        <div class="pCover">
+            <img src=<?php echo $imgcover; ?>>
+            <img id="avt" src=<?php echo $image_path; ?> >
+            <div class="name-prf">
+                <h4>Tú Nguyễn</h4>
+            </div>
+
+            <br>
+            <p id="menu_button">Bài viết</p>
+            <p id="menu_button">Giới thiệu</p>
+            <p id="menu_button">Bạn bè</p>
+            <p id="menu_button">Ảnh</p>
+            <p id="menu_button">Xem thêm</p>
+        </div>
+
+        <div class="time-line">
+
+            <div id="time-line-friends">
+                <div id="friends_bar">
+                    <p id="name_li">Bạn bè</p>
+                    <br>
+                    <div id="friends">
+
+                        <img src="images/user2.jpg">
+                        <br>
+                        <p id="name_fr">Hà Thế Toản</p>
+                    </div>
+
+                    <div id="friends">
+
+                        <img src="images/user3.jpg">
+                        <br>
+                        <p id="name_fr">Đỗ Trọng Tấn</p>
+                    </div>
+
+                    <div id="friends">
+
+                        <img src="images/user4.jpg">
+                        <br>
+                        <p id="name_fr">Trần Quang Hà<object data="" type=""></object></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="time-line-post">
+                <div class="post-container">
+                    <div class="user-profile">
+                        <img src="images/user1.jpg">
+                        <div>
+                            <p>Tú Nguyễn</p>
+                            <small>Public<i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input">
+                        <textarea name="#" id="#" cols="#" rows="3" placeholder="What's on your mind?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/photo.png">Image/video</a>
+                            <a href="#"><img src="images/up.png">Đăng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=view-post>
+                    <div class="posts">
+                        <div class="user-profile">
+                            <img src="images/user1.jpg">
+                            <div>
+                                <p>Tú Nguyễn</p>
+                                <span>3 tháng 6 lúc 12:54 pm</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="post-text">Người ta thì thích chiều tà, còn anh lại thích đó là chiều em</p>
+                            <img src="images/user1.jpg" class="post-img">
+
+                            <div class="post-row">
+                                <div class="activity-icon">
+                                    <div><img src="images/like.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                            </div>
+
+                            <div class="icon-post">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="posts">
+                        <div class="user-profile">
+                            <img src="images/user3.jpg">
+                            <div>
+                                <p>Đỗ Trọng Tấn</p>
+                                <span>9 tháng 6 lúc 14:44 pm</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="post-text">Nothing!</p>
+                            <img src="images/user3.jpg" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icon">
+                                    <div><img src="images/like.png">1000</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">0</div>
+                                </div>
+                            </div>
+        
+                            <div class="icon-post">
+        
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="posts">
+                        <div class="user-profile">
+                            <img src="images/user2.jpg">
+                            <div>
+                                <p>Hà Thế Toản</p>
+                                <span>10 tháng 6 lúc 14:44 pm</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="post-text">JavissHa!</p>
+                            <img src="images/user2.jpg" class="post-img">
+        
+                            <div class="post-row">
+                                <div class="activity-icon">
+                                    <div><img src="images/like.png">5000</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">0</div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>

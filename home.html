@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BEEin/Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/bd99fe57ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <nav>
+            <div class="nav-left">
+                <a href="home.php"><img src="images/bees.png" class="logo"></a>
+                <div class="search-box">
+                    <img src="images\search.png">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="nav-right">
+
+                <ul>
+                    <li><a href=""><img src="images\home.png" alt=""></a></li>
+                    <li><a href=""><img src="images\message.png" alt=""></a></li>
+                    <li><a href=""><img src="images/bell.png" alt=""></a></li>
+                </ul>
+                <div>
+                    <a href="profile.php"><img src="images/user1.jpg"></a>
+                </div>
+                <form action="" id="form-logout" method="post">
+                    <button class="logout" name="logout">
+                        <div id="out">
+                            <i class="fa-solid fa-x"></i>
+                            <h5>LOGOUT</h5>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </nav>
+    <div class="container">
+        <!------------------- left-sidebar---------------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/newfeed.png">News feed</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                
+                <a href="#">More</a>
+            </div>
+        </div>
+        <!-- --------------main-content ------------------------>
+        <div class="main-content">
+            <div class="post-container">
+                <div class="user-profile">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>Tú Nguyễn</p>
+                        <small>Public<i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input">
+                    <textarea name="#" id="#" cols="#" rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/photo.png">Image/Video</a>
+                        <a href="#"><img src="images/up.png">Upload</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Post -->
+            <div class=view-post>
+                <div class="posts">
+                    <div class="user-profile">
+                        <img src="images/user1.jpg">
+                        <div>
+                            <p>Tú Nguyễn</p>
+                            <span>3 tháng 6 lúc 12:54 pm</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="post-text">Người ta thì thích chiều tà, còn anh lại thích đó là chiều em</p>
+                        <img src="images/user1.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div id="like">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <!-- <div><img src="images/like.png">120</div> -->
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">20</div>
+                            </div>
+                        </div>
+
+                        <div class="icon-post">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="posts">
+                    <div class="user-profile">
+                        <img src="images/user3.jpg">
+                        <div>
+                            <p>Đỗ Trọng Tấn</p>
+                            <span>9 tháng 6 lúc 14:44 pm</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="post-text">Nothing!</p>
+                        <img src="images/user3.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like.png">1000</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">0</div>
+                            </div>
+                        </div>
+
+                        <div class="icon-post">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="posts">
+                    <div class="user-profile">
+                        <img src="images/user2.jpg">
+                        <div>
+                            <p>Hà Thế Toản</p>
+                            <span>10 tháng 6 lúc 14:44 pm</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="post-text">JavissHa!</p>
+                        <img src="images/user2.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icon">
+                                <div><img src="images/like.png">5000</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">0</div>
+                            </div>
+                        </div>
+
+                        <div class="icon-post">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-----------------right-sidebar------------------------>
+        <div class="right-sidebar">
+            <h4>Contact</h4>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/user2.jpg">
+                </div>
+                <p>Hà Toản</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/user3.jpg">
+                </div>
+                <p>Đỗ Trọng Tấn</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/user4.jpg">
+
+                </div>
+                <p>Hào Su</Sub></p>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
